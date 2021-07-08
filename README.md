@@ -6,8 +6,9 @@
 - Currently only supports translation from .txt
 
 
-Example Usage (test.txt file is provided):
+## Example Usage (test.txt (German) file is provided):
 
+#### Naming convention exists for output files.
 
 *Translate text in file from German to French*
 
@@ -30,6 +31,15 @@ Example Usage (test.txt file is provided):
 > -------------------- <br>
 > Translated file from German to French. File is test_french.txt <br>
 > Converted test_french.txt to French audio. File is test_french.mp3 <br>
+
+
+*Use command line to translate German .txt file into Swedish mp3*
+> python text_to_speech.py --audio test.txt --to swedish
+> Detected language is German
+> Translating into Swedish
+> --------------------
+>Translated file from German to Swedish. File is test_swedish.txt 
+> Converted test_swedish.txt to Swedish audio. File is test_swedish.mp3 
 
 
 Languages supported for text-to-text translation (Not all are supported for text-to-speech):
