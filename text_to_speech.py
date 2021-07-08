@@ -17,7 +17,7 @@ def get_args():
 	parser.add_argument('-l', '--list', action='store_true', help='Request a list of supported languages', required=False)
 	parser.add_argument('-t', '--text', help='Translates text in file to chosen language. Default is English')
 	parser.add_argument('-a', '--audio', help='Translates text in file to to mp3 audio in chosen language with text file. Default is the same language')
-	parser.add_argument('-o', '--output-file', help='Language to translate to')
+	parser.add_argument('-n', '--new-lang', help='Language to translate to')
 
 	return parser.parse_args()
 
