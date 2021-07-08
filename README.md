@@ -14,7 +14,7 @@ Example Usage (test.txt file is provided):
 > ./text_to_speech.py --file test.txt <br>
 > Which language? <br>
 > French <br>
->Detected language is German<br>
+>Detected language is German <br>
 >Translating into French <br>
 > -------------------- <br>
 > Translated file from German to French. File is test_french.txt <br>
