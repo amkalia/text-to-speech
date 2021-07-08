@@ -1,6 +1,6 @@
 # Text to speech
 
-Cross platform multilingual Text-to-Speech tool that uses Google Translate API. 
+ Text-to-Text and Text-to-Speech tool that uses the Google Translate API. 
 
 
 - Currently only supports translation from .txt
@@ -34,110 +34,110 @@ Converted test_french.txt to French audio. File is test_french.mp3
 
 Languages supported for text-to-text translation (Not all are supported for text-to-speech):
 
-AFRIKAANS | af 
-ALBANIAN | sq 
-AMHARIC | am 
-ARABIC | ar 
-ARMENIAN | hy 
-AZERBAIJANI | az 
-BASQUE | eu 
-BELARUSIAN | be 
-BENGALI | bn 
-BOSNIAN | bs 
-BULGARIAN | bg 
-CATALAN | ca 
-CEBUANO | ceb 
-CHICHEWA | ny 
-CHINESE (SIMPLIFIED) | zh-cn 
-CHINESE (TRADITIONAL) | zh-tw 
-CORSICAN | co 
-CROATIAN | hr 
-CZECH | cs 
-DANISH | da 
-DUTCH | nl 
-ENGLISH | en 
-ESPERANTO | eo 
-ESTONIAN | et 
-FILIPINO | tl 
-FINNISH | fi 
-FRENCH | fr 
-FRISIAN | fy 
-GALICIAN | gl 
-GEORGIAN | ka 
-GERMAN | de 
-GREEK | el 
-GUJARATI | gu 
-HAITIAN CREOLE | ht 
-HAUSA | ha 
-HAWAIIAN | haw 
-HEBREW | iw 
-HEBREW | he 
-HINDI | hi 
-HMONG | hmn 
-HUNGARIAN | hu 
-ICELANDIC | is 
-IGBO | ig 
-INDONESIAN | id 
-IRISH | ga 
-ITALIAN | it 
-JAPANESE | ja 
-JAVANESE | jw 
-KANNADA | kn 
-KAZAKH | kk 
-KHMER | km 
-KOREAN | ko 
-KURDISH (KURMANJI) | ku 
-KYRGYZ | ky 
-LAO | lo 
-LATIN | la 
-LATVIAN | lv 
-LITHUANIAN | lt 
-LUXEMBOURGISH | lb 
-MACEDONIAN | mk 
-MALAGASY | mg 
-MALAY | ms 
-MALAYALAM | ml 
-MALTESE | mt 
-MAORI | mi 
-MARATHI | mr 
-MONGOLIAN | mn 
-MYANMAR (BURMESE) | my 
-NEPALI | ne 
-NORWEGIAN | no 
-ODIA | or 
-PASHTO | ps 
-PERSIAN | fa 
-POLISH | pl 
-PORTUGUESE | pt 
-PUNJABI | pa 
-ROMANIAN | ro 
-RUSSIAN | ru 
-SAMOAN | sm 
-SCOTS GAELIC | gd 
-SERBIAN | sr 
-SESOTHO | st 
-SHONA | sn 
-SINDHI | sd 
-SINHALA | si 
-SLOVAK | sk 
-SLOVENIAN | sl 
-SOMALI | so 
-SPANISH | es 
-SUNDANESE | su 
-SWAHILI | sw 
-SWEDISH | sv 
-TAJIK | tg 
-TAMIL | ta 
-TELUGU | te 
-THAI | th 
-TURKISH | tr 
-UKRAINIAN | uk 
-URDU | ur 
-UYGHUR | ug 
-UZBEK | uz 
-VIETNAMESE | vi 
-WELSH | cy 
-XHOSA | xh 
-YIDDISH | yi 
-YORUBA | yo 
-ZULU | zu 
+AFRIKAANS | af <br>
+ALBANIAN | sq <br>
+AMHARIC | am <br>
+ARABIC | ar <br>
+ARMENIAN | hy <br>
+AZERBAIJANI | az <br>
+BASQUE | eu <br>
+BELARUSIAN | be <br>
+BENGALI | bn <br>
+BOSNIAN | bs <br>
+BULGARIAN | bg <br>
+CATALAN | ca <br>
+CEBUANO | ceb <br>
+CHICHEWA | ny <br>
+CHINESE (SIMPLIFIED) | zh-cn <br>
+CHINESE (TRADITIONAL) | zh-tw <br>
+CORSICAN | co <br>
+CROATIAN | hr <br>
+CZECH | cs <br>
+DANISH | da <br>
+DUTCH | nl <br>
+ENGLISH | en <br>
+ESPERANTO | eo <br>
+ESTONIAN | et <br>
+FILIPINO | tl <br>
+FINNISH | fi <br>
+FRENCH | fr <br>
+FRISIAN | fy <br>
+GALICIAN | gl <br>
+GEORGIAN | ka <br>
+GERMAN | de <br>
+GREEK | el <br>
+GUJARATI | gu <br>
+HAITIAN CREOLE | ht <br>
+HAUSA | ha <br>
+HAWAIIAN | haw <br>
+HEBREW | iw <br>
+HEBREW | he <br>
+HINDI | hi <br>
+HMONG | hmn <br>
+HUNGARIAN | hu <br>
+ICELANDIC | is <br>
+IGBO | ig <br>
+INDONESIAN | id <br> 
+IRISH | ga <br>
+ITALIAN | it <br>
+JAPANESE | ja <br>
+JAVANESE | jw <br>
+KANNADA | kn <br>
+KAZAKH | kk <br>
+KHMER | km <br>
+KOREAN | ko <br>
+KURDISH (KURMANJI) | ku <br>
+KYRGYZ | ky <br>
+LAO | lo <br>
+LATIN | la <br>
+LATVIAN | lv <br>
+LITHUANIAN | lt <br>
+LUXEMBOURGISH | lb <br>
+MACEDONIAN | mk <br>
+MALAGASY | mg <br>
+MALAY | ms <br>
+MALAYALAM | ml <br>
+MALTESE | mt <br>
+MAORI | mi <br>
+MARATHI | mr <br>
+MONGOLIAN | mn <br>
+MYANMAR (BURMESE) | my <br> 
+NEPALI | ne <br>
+NORWEGIAN | no <br>
+ODIA | or <br>
+PASHTO | ps <br>
+PERSIAN | fa <br>
+POLISH | pl <br>
+PORTUGUESE | pt <br>
+PUNJABI | pa <br>
+ROMANIAN | ro <br>
+RUSSIAN | ru <br>
+SAMOAN | sm <br>
+SCOTS GAELIC | gd <br> 
+SERBIAN | sr <br>
+SESOTHO | st <br>
+SHONA | sn <br>
+SINDHI | sd <br>
+SINHALA | si <br>
+SLOVAK | sk <br>
+SLOVENIAN | sl <br>
+SOMALI | so <br>
+SPANISH | es <br>
+SUNDANESE | su <br>
+SWAHILI | sw <br>
+SWEDISH | sv <br>
+TAJIK | tg <br>
+TAMIL | ta <br>
+TELUGU | te <br>
+THAI | th <br>
+TURKISH | tr <br>
+UKRAINIAN | uk <br>
+URDU | ur <br>
+UYGHUR | ug <br>
+UZBEK | uz <br>
+VIETNAMESE | vi <br> 
+WELSH | cy <br>
+XHOSA | xh <br>
+YIDDISH | yi <br>
+YORUBA | yo <br>
+ZULU | zu <br>
