@@ -1,14 +1,19 @@
 # Text to speech
 
- Text-to-Text and Text-to-Speech tool that uses the Google Translate API. 
+ Text-to-text and text-to-speech script that uses the Google Translate API. 
+
 
 
 - Currently only supports translation from .txt
-
+- Default text-to-text translation will be in English.
+- Default text-to-speech will be in the same language.
+- Languages supported for text-to-text translation are provided below (Not all are supported for text-to-speech):
 
 ## Example Usage (test.txt (German) file is provided):
 
 #### Naming convention exists for output files.
+
+
 
 *Translate text in file from German to French*
 
@@ -19,6 +24,9 @@
 >Translating into French <br>
 > -------------------- <br>
 > Translated file from German to French. File is test_french.txt <br>
+
+
+
 
 *Translate text in file from German to French mp3*
 
@@ -42,7 +50,11 @@
 > Converted test_swedish.txt to Swedish audio. File is test_swedish.mp3 <br>
 
 
-Languages supported for text-to-text translation (Not all are supported for text-to-speech):
+
+
+
+
+
 
 AFRIKAANS | af <br>
 ALBANIAN | sq <br>
