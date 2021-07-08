@@ -95,26 +95,29 @@ def translate_to_audio(filename, new_language):
 
 
 if __name__ == '__main__':
-	arguments = get_args()
-	if arguments.list:
-		print_languages()
-	
-	if arguments.file:
-		if arguments.to:
-			translate_to_text(filename=arguments.file, new_language=arguments.to.lower())
-	
-		else:
-			translate_to_text(filename=arguments.file)
-	if arguments.audio:
-		if arguments.to:
-			translate_to_audio(filename=arguments.audio, new_language=arguments.to.lower())
-		else:
-			file = open(arguments.audio, "r").read()
-			languages = return_languages('languages.json')
-			detected_language = languages[str(translator.detect(file).lang)]
-			print(detected_language)
-			translate_to_audio(filename=arguments.audio, new_language=detected_language)
-	else:
+	try:
+
+		arguments = get_args()
+		if arguments.list:
+			print_languages()
+		
+		if arguments.text:
+			if arguments.new_lang:
+				translate_to_text(filename=arguments.text, new_language=arguments.new_lang.lower())
+		
+			else:
+				translate_to_text(filename=arguments.text)
+		if arguments.audio:
+			if arguments.new_lang:
+				translate_to_audio(filename=arguments.audio, new_language=arguments.new_lang.lower())
+			else:
+				file = open(arguments.audio, "r").read()
+				languages = return_languages('languages.json')
+				detected_language = languages[str(translator.detect(file).lang)]
+				print(detected_language)
+				translate_to_audio(filename=arguments.audio, new_language=detected_language)
+	except Error as e:
+		print(e)
 		print("Please select a file to translate.")
 		print("Example: ./text_to_speech.py --file test.txt")
 		print("")
