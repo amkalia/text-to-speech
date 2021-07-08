@@ -34,12 +34,12 @@
 
 
 *Use command line to translate German .txt file into Swedish mp3*
-> python text_to_speech.py --audio test.txt --to swedish
-> Detected language is German
-> Translating into Swedish
-> --------------------
->Translated file from German to Swedish. File is test_swedish.txt 
-> Converted test_swedish.txt to Swedish audio. File is test_swedish.mp3 
+> python text_to_speech.py --audio test.txt --to swedish <br>
+> Detected language is German <br>
+> Translating into Swedish <br>
+> -------------------- <br>
+>Translated file from German to Swedish. File is test_swedish.txt <br>
+> Converted test_swedish.txt to Swedish audio. File is test_swedish.mp3 <br>
 
 
 Languages supported for text-to-text translation (Not all are supported for text-to-speech):
