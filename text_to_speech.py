@@ -50,10 +50,7 @@ def check_valid_extension(filename="test.txt"):
 
 def translate_to_text(filename='test.txt', new_language='english'):
 	ext = 'txt'
-	#ext = filename.split(".")[-1]
-	# Convert file to .txt
-	# if ext != filename.split(".")[-1]:
-	# 	filename = docx_to_txt(filename)
+
 
 	file = open(filename, "r").read()
 	languages = return_languages('languages.json')
@@ -63,7 +60,7 @@ def translate_to_text(filename='test.txt', new_language='english'):
 	
 	print(f"Translating into {new_language.capitalize()}")
 	print("-"*20)
-	#ext = filename.split(".")[-1]
+	
 
 	new_file = f"{filename.split('.')[0]}_{new_language}.{ext}"
 	new_text = translator.translate(file, dest=new_language_key).text
@@ -107,4 +104,3 @@ if __name__ == '__main__':
 		print("Please select a file to translate.")
 		print("Example: ./text_to_speech.py --file test.txt")
 		print("")
-		
