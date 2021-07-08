@@ -6,7 +6,7 @@
 
 - Currently only supports translation from .txt
 - Default text-to-text translation will be in English.
-- Default text-to-speech will be in the same language.
+- Default text-to-speech will be in the same language where possible.
 - Languages supported for text-to-text translation are provided below (Not all are supported for text-to-speech):
 
 ## Example Usage (test.txt (German) file is provided):
@@ -17,23 +17,17 @@
 
 *Translate text in file from German to French*
 
-> ./text_to_speech.py --file test.txt <br>
-> Which language? <br>
-> French <br>
+> ./text_to_speech.py --text test.txt --new-lang french <br>
 >Detected language is German <br>
 >Translating into French <br>
 > -------------------- <br>
 > Translated file from German to French. File is test_french.txt <br>
 
 
-
-
 *Translate text in file from German to French mp3*
 
-> ./text_to_speech.py --audio test.txt <br>
+> ./text_to_speech.py --audio test.txt --new-lang french<br>
 
-> Which language? <br>
-> French <br>
 > Detected language is German <br>
 > Translating into French <br>
 > -------------------- <br>
