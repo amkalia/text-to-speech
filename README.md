@@ -11,8 +11,8 @@ Example Usage (test.txt file is provided):
 
 *Translate text in file from German to French*
 
-> ./text_to_speech.py --file test.txt 
-
+> ./text_to_speech.py --file test.txt <br>
+> Which language? <br>
 > French <br>
 >Detected language is German
 >Translating into French
@@ -21,15 +21,15 @@ Example Usage (test.txt file is provided):
 
 *Translate text in file from German to French mp3*
 
-> ./text_to_speech.py --audio test.txt
+> ./text_to_speech.py --audio test.txt <br>
 
-Which language?
+> Which language? <br>
 > French <br>
-> Detected language is German
-> Translating into French
-> --------------------
-> Translated file from German to French. File is test_french.txt 
-> Converted test_french.txt to French audio. File is test_french.mp3 
+> Detected language is German <br>
+> Translating into French <br>
+> -------------------- <br>
+> Translated file from German to French. File is test_french.txt <br>
+> Converted test_french.txt to French audio. File is test_french.mp3 <br>
 
 
 Languages supported for text-to-text translation (Not all are supported for text-to-speech):
