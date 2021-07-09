@@ -36,7 +36,7 @@
 
 
 *Use command line to translate German .txt file into Swedish mp3*
-> python text_to_speech.py --audio test.txt --to swedish <br>
+> python text_to_speech.py --audio test.txt --new-lang swedish <br>
 > Detected language is German <br>
 > Translating into Swedish <br>
 > -------------------- <br>
